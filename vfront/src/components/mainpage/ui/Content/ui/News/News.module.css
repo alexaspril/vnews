@@ -1,0 +1,29 @@
+.News{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+
+.News h1{
+    display: flex;
+    font-weight: 600;
+    font-size: 32px;
+    color: var(--text-color-title);
+    margin-bottom: 32px;
+    width: 100%;
+
+}
+
+.MoreButton{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    height: 80px;
+    padding: 10px 20px;
+    font-weight: 600;
+    font-size: 32px;
+    color: var(--active-toggle);
+    background-color: var(--background-color-components2);
+}

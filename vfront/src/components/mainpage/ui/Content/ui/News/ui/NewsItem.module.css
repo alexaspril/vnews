@@ -1,0 +1,40 @@
+.NewsItem{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    gap: 32px;
+    margin-bottom: 48px;
+}
+
+.NewsContent{
+    display: flex;
+    max-height: 320px;
+    max-width: 100%;
+}
+.NewsContent * {
+    width: 100%;
+    height: 320px;
+    max-width: 700px;
+    max-height: 320px;
+}
+
+.TitleDate{
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.Title{
+    font-weight: 600;
+    font-size: 32px;
+    color: var(--text-color-title);
+}
+
+.Date{
+    font-weight: 400;
+    font-size: 24px;
+    color: var(--text-color-date)
+}
+
+
+

@@ -1,0 +1,67 @@
+.NewsItemExpanded{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.BackButton{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    gap:28px;
+    margin-bottom: 32px;
+}
+
+.TitleData{
+    display: flex;
+    flex-direction: column;
+    gap:16px;
+    
+
+}
+
+.Title{
+    display: flex;
+    text-align: left;
+    max-width: 600px;
+    font-weight: 600;
+    font-size: 32px;
+    color: var(--text-color-title);
+}
+
+.Date{
+    display: flex;
+    font-weight: 400;
+    font-size: 24px;
+    color: var(--text-color-date)
+}
+
+.Back{
+    stroke: var(--text-color-title)
+}
+
+.NewsContent{
+    display: flex;
+    flex-direction: column;
+    max-width: 100%;
+    gap: 32px;
+}
+.NewsContent img {
+    max-width: 700px;
+    max-height: 320px;
+}
+.NewsContent h2 span {
+    font-weight: 600;
+    font-size: 32px;
+    color: var(--text-color-title);
+}
+
+.NewsContent p span {
+    font-weight: 400;
+    font-size: 28px;
+    color: var(--text-color-main);
+    line-height: 140%;
+}
+
+
+

@@ -1,0 +1,51 @@
+@import url('./reset.css');
+@import url('../assets/fonts/ProximaNova/stylesheet.css');
+
+.light {
+  --background-color-main: #ECF4FF;
+  --background-color-components1: white;
+  --background-color-components2: #0878F6;
+  --background-color-footer: rgba(210, 212, 222, 0.48);
+  --text-color-main: #737373;
+  --text-color-date: #94989A;
+  --text-color-title: #4E4E55;
+  --active-toggle: white;
+  --active-toggle-components: #0878F6;
+  --inactive-toggle: #737373;
+  --inactive-toggle-components: #FFFFFF;
+  --shadow: rgba(181, 181, 210, 0.12);
+ 
+}
+
+.dark {
+  --background-color-main: #090909;
+  --background-color-components1: #2C2C2C;
+  --background-color-components2: #35C7E8;
+  --background-color-footer: rgba(44, 44, 44, 0.24);
+  --text-color-main: #919399;
+  --text-color-date: #c4c9cc;
+  --text-color-title: #919399;
+  --active-toggle: #B9B9B4;
+  --active-toggle-components: #2C2C2C;
+  --inactive-toggle: rgba(145, 147, 153, 0.64);
+  --inactive-toggle-components: rgba(44, 44, 44, 0.48);
+  --shadow: rgba(181, 181, 210, 0);
+  
+} 
+  
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: 'Proxima Nova', sans-serif;
+  font-weight: 400;
+  background-color: var(--background-color-main);
+  color: var(--text-color-main);
+  min-width: 780px;
+}
+
+#root {
+  min-width: 780px;
+  max-width: 780px;
+  width: 100%;
+}

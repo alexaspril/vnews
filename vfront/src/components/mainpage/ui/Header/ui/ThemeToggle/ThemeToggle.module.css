@@ -1,0 +1,41 @@
+.ThemeToggle{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 180px;
+    height: 50px;
+    background: var(--inactive-toggle-components);
+    box-shadow: 0px 4px 12px var(--shadow);
+
+}
+
+.Buttons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50px;
+    height: 50px;
+}
+
+.Active{
+    background-color: var(--active-toggle-components);
+}
+
+.Buttons svg{
+    border-radius: 0px;
+}
+
+.ActiveSvg{
+    fill: var(--active-toggle);  
+}
+.ActiveSvgStroke{
+    fill: var(--active-toggle);
+    stroke: var(--active-toggle); 
+}
+.InActiveSvg{
+    fill: var(--inactive-toggle);
+}
+.InActiveSvgStroke{
+    fill: var(--inactive-toggle);
+    stroke: var(--inactive-toggle);
+}
