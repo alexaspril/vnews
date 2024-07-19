@@ -15,6 +15,7 @@ const getNews = async (req, res) => {
         perPage
       }
     });
+    console.log('Response from API:', response.data);
 
     const newsList = response.data.list.map(newsItem => {
       ['local_ru', 'local_en'].forEach(locale => {

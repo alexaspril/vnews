@@ -8,57 +8,57 @@
     display: flex;
     width: 100%;
     align-items: center;
-    gap:28px;
+    gap: clamp(14px,  3.5897vw ,42px);
     margin-bottom: 32px;
 }
 
 .TitleData{
     display: flex;
     flex-direction: column;
-    gap:16px;
-    
-
+    gap: clamp(8px, 2.051vw , 24px);;
 }
 
 .Title{
     display: flex;
     text-align: left;
-    max-width: 600px;
+    max-width: 100%;
     font-weight: 600;
-    font-size: 32px;
+    font-size: clamp(16px,  4.1025vw ,48px);
     color: var(--text-color-title);
 }
 
 .Date{
     display: flex;
     font-weight: 400;
-    font-size: 24px;
+    font-size: clamp(12px,  3.0769vw ,38px);
     color: var(--text-color-date)
 }
 
 .Back{
-    stroke: var(--text-color-title)
+    stroke: var(--text-color-title);
+    width: clamp(8px, 2.051vw , 24px);
+    
 }
 
 .NewsContent{
     display: flex;
     flex-direction: column;
     max-width: 100%;
-    gap: 32px;
+    gap: clamp(16px,  4.1025vw ,48px);
 }
 .NewsContent img {
-    max-width: 700px;
-    max-height: 320px;
+    max-width: 100%;
+    max-height: clamp(160px, 41.025vw, 480px);
 }
 .NewsContent h2 span {
     font-weight: 600;
-    font-size: 32px;
+    font-size: clamp(16px,  4.1025vw ,48px);
     color: var(--text-color-title);
 }
 
 .NewsContent p span {
     font-weight: 400;
-    font-size: 28px;
+    font-size: clamp(14px,  3.5897vw ,48px);
     color: var(--text-color-main);
     line-height: 140%;
 }

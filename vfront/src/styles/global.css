@@ -31,8 +31,12 @@
   --inactive-toggle-components: rgba(44, 44, 44, 0.48);
   --shadow: rgba(181, 181, 210, 0);
   
-} 
-  
+}
+
+* {
+	border-radius: 8px;
+}
+
 body {
   display: flex;
   flex-direction: column;
@@ -41,11 +45,32 @@ body {
   font-weight: 400;
   background-color: var(--background-color-main);
   color: var(--text-color-main);
-  min-width: 780px;
 }
 
 #root {
-  min-width: 780px;
-  max-width: 780px;
+  display: flex;
+  flex-direction: column;
   width: 100%;
+  max-width: 1024px;
+  padding: 20px;
+
 }
+
+@media (min-width: 768px) {
+  #root {
+    padding: 40px;
+  }
+  * {
+    border-radius: 16px;
+  }
+}
+
+@media (min-width: 1024px) {
+  #root {
+    padding: 60px;
+  }
+  * {
+    border-radius: 24px;
+  }
+}
+

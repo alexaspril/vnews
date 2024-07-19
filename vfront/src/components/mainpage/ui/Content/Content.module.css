@@ -1,7 +1,20 @@
 .Content{
     display: flex;
     flex-direction: column;
-    gap: 48px;
+    gap: 24px;
     width: 100%;
+    overflow: hidden;
     
+}
+
+@media (min-width: 768px) {
+    .Content {
+        gap:36px;
+    }
+}
+  
+  @media (min-width: 1024px) {
+    .Content {
+        gap: 48px;
+    }
 }

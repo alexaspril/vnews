@@ -1,10 +1,25 @@
 .MainPage{
     display: flex;
     flex-direction: column;
+    width: 100%;
+    gap:32px;
 }
 
 .MainPageContent{
     display: flex;
     flex-direction: column;
-    padding: 40px;
+    
+
+}
+
+@media (min-width: 768px) {
+    .MainPage {
+        gap:48px;
+    }
+}
+  
+  @media (min-width: 1024px) {
+    .MainPage {
+        gap: 64px;
+    }
 }

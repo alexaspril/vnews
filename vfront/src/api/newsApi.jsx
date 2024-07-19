@@ -12,6 +12,7 @@ export const fetchNews = async (page = 1, perPage = 10) => {
     });
 
     console.log(`Fetching news for page ${page}, perPage ${perPage}`);
+    console.log(response.data.list)
     return response.data.list;
   } catch (error) {
     console.error('Error fetching news:', error);

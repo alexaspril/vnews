@@ -2,28 +2,41 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    border-radius: 0px;
     width: 100%;
 }
 
 .News h1{
     display: flex;
     font-weight: 600;
-    font-size: 32px;
+    font-size: clamp(16px,  4.1025vw ,48px);
     color: var(--text-color-title);
-    margin-bottom: 32px;
+    margin-bottom: clamp(16px,  4.1025vw ,48px);
     width: 100%;
-
 }
 
 .MoreButton{
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 50%;
-    height: 80px;
+    width: 70%;
+    height: clamp(40px,  10.25vw ,120px);
     padding: 10px 20px;
     font-weight: 600;
-    font-size: 32px;
+    font-size: clamp(16px,  4.1025vw ,48px);
     color: var(--active-toggle);
     background-color: var(--background-color-components2);
+}
+
+
+@media (min-width: 768px) {
+    .Content {
+        gap:36px;
+    }
+}
+  
+  @media (min-width: 1024px) {
+    .Content {
+        gap: 48px;
+    }
 }

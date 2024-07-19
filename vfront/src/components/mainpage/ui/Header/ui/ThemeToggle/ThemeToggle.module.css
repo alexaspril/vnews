@@ -2,8 +2,8 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    width: 180px;
-    height: 50px;
+    width: 50%;
+    height: 100%;
     background: var(--inactive-toggle-components);
     box-shadow: 0px 4px 12px var(--shadow);
 
@@ -13,8 +13,8 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 50px;
-    height: 50px;
+    flex: 1;
+    height: 100%;
 }
 
 .Active{
@@ -26,16 +26,25 @@
 }
 
 .ActiveSvg{
+    width: 50%;
+    height: 50%;
     fill: var(--active-toggle);  
 }
 .ActiveSvgStroke{
+    width: 50%;
+    height: 50%;
     fill: var(--active-toggle);
     stroke: var(--active-toggle); 
 }
 .InActiveSvg{
+    width: 50%;
+    height: 50%;
     fill: var(--inactive-toggle);
 }
 .InActiveSvgStroke{
+    width: 50%;
+    height: 50%;
     fill: var(--inactive-toggle);
     stroke: var(--inactive-toggle);
 }
+
